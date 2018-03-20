@@ -1,5 +1,5 @@
 var friends = [
-{
+{ 
 	name : "Dean",
 	photo: "https://media.giphy.com/media/866tJfdEhVT8I/giphy.gif",
 	"score[]": [5,5,4,4,3,2,2,2,2,2],

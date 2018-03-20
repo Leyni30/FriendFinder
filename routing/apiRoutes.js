@@ -50,8 +50,13 @@ function match(user){
     bestMatchCounter=0;
     for (var i=0; i < friendsData.length; i++) {
         counter=0;
+
         for (var j=0; j < friendsData[i]['score[]'].length; j++) {
-            counter=counter+Math.abs(user[j]['score']-friendsData[i]['score[]'][j]);
+            console.log(user.q1)
+            console.log(friendsData[i]['score[]'][0])
+            console.log(friendsData[i]['score[]'][0] === parseInt(user.q1))
+
+            counter=counter+Math.abs(user[j]-friendsData[i]['score[]'][j]);
         }
         console.log(friendsData)
 
